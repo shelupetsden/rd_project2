@@ -13,35 +13,43 @@ const navigationList = [
 const creationList = [
     {
         title: 'DEEP EARTH',
-        desktopImage: '/images/desktop/image-deep-earth.jpg'
+        desktopImage: '/images/desktop/image-deep-earth.jpg',
+        mobileImage: '/images/mobile/image-deep-earth.jpg'
     },
     {
         title: 'NIGHT ARCADE',
-        desktopImage: '/images/desktop/image-night-arcade.jpg'
+        desktopImage: '/images/desktop/image-night-arcade.jpg',
+        mobileImage: '/images/mobile/image-night-arcade.jpg'
     },
     {
         title: 'SOCCER TEAM VR',
-        desktopImage: '/images/desktop/image-soccer-team.jpg'
+        desktopImage: '/images/desktop/image-soccer-team.jpg',
+        mobileImage: '/images/mobile/image-soccer-team.jpg'
     },
     {
         title: 'THE GRID',
-        desktopImage: '/images/desktop/image-grid.jpg'
+        desktopImage: '/images/desktop/image-grid.jpg',
+        mobileImage: '/images/mobile/image-grid.jpg'
     },
     {
         title: 'FROM UP ABOVE VR',
-        desktopImage: '/images/desktop/image-from-above.jpg'
+        desktopImage: '/images/mobile/image-from-above.jpg',
+        mobileImage: '/images/mobile/image-from-above.jpg'
     },
     {
         title: 'POCKET BOREALIS',
-        desktopImage: '/images/desktop/image-pocket-borealis.jpg'
+        desktopImage: '/images/mobile/image-pocket-borealis.jpg',
+        mobileImage: '/images/mobile/image-pocket-borealis.jpg'
     },
     {
         title: 'THE CURIOSITY',
-        desktopImage: '/images/desktop/image-curiosity.jpg'
+        desktopImage: '/images/desktop/image-curiosity.jpg',
+        mobileImage: '/images/mobile/image-curiosity.jpg'
     },
     {
         title: 'MAKE IT FISHEYE',
-        desktopImage: '/images/desktop/image-fisheye.jpg'
+        desktopImage: '/images/desktop/image-fisheye.jpg',
+        mobileImage: '/images/mobile/image-fisheye.jpg'
     },
 ]
 

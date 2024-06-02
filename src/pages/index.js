@@ -16,7 +16,8 @@ export default function Home({heroSectionContext, interactiveSectionContext}) {
 export async function getServerSideProps() {
     const heroSectionContext = {
         title: 'Immersive experiences that deliver',
-        desktopImage: '/images/desktop/image-hero.jpg'
+        desktopImage: '/images/desktop/image-hero.jpg',
+        mobileImage: '/images/mobile/image-hero.jpg'
     };
 
     const interactiveSectionContext = {
@@ -25,7 +26,8 @@ export async function getServerSideProps() {
             'virtual reality projects for some of the best companies around the\n' +
             'globe. Our award-winning creations have transformed\n' +
             'businesses through digital experiences that bind to their brand.',
-        desktopImage: '/images/image-interactive.jpg'
+        desktopImage: '/images/image-interactive.jpg',
+        mobileImage: '/images/mobile/image-interactive.jpg'
     };
 
     return {

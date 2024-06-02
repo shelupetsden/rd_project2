@@ -6,18 +6,19 @@ const Navigation = () => {
     const {navigationList} = useContext(Context);
 
     return (
-        <div>
-            <ul className="flex p-4 gap-10 text-white">
-                {navigationList.map(({name, url}) =>
-                    (
-                        <div key={name} className="p-4">
-                            <div className="hover:border-b-4 pb-4">
-                                <Link key={name} href={url} className="text-lg">{name}</Link>
-                            </div>
-                        </div>
-                    )
-                )}
+        <nav>
+            <ul className="flex flex-col lg:flex-row gap-5 lg:gap-5  text-white">
+                {navigationList.map(({name, url}) => (
+                    <li key={name} className="relative flex flex-col items-start">
+                        <Link href={url}
+                              className="text-lg after:block after:absolute after:inset-x-0 after:bottom-0 after:h-1 after:bg-white after:transition-width after:duration-300 after:ease-in-out after:w-0 hover:after:w-full">
+                            {name}
+                        </Link>
+                    </li>
+                ))}
             </ul>
-        </div>)
-}
+        </nav>
+    );
+};
+
 export default Navigation;
