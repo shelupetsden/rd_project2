@@ -1,33 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.box-item {
+    border: 1px solid #000; /* Adds a black border around the box */
+    padding: 20px; /* Adds some padding inside the box */
+    margin: 650px; /* Adds some margin outside the box */
+    border-radius: 5px; /* Rounds the corners of the box */
+    background-color: #f9f9f9; /* Sets a background color for the box */
+    top:-430px;
+    left:-430px;
 }
